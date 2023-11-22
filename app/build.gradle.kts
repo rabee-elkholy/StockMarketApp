@@ -70,7 +70,7 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3")
+    implementation("androidx.compose.material:material")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -83,8 +83,6 @@ dependencies {
     // Compose dependencies
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation("androidx.compose.material:material-icons-extended")
-    implementation("com.google.accompanist:accompanist-flowlayout:0.17.0")
-    implementation("androidx.paging:paging-compose:3.3.0-alpha02")
     implementation("androidx.activity:activity-compose:1.8.1")
     implementation("com.google.accompanist:accompanist-swiperefresh:0.24.2-alpha")
 
@@ -94,9 +92,6 @@ dependencies {
     // Compose Nav Destinations
     implementation("io.github.raamcosta.compose-destinations:core:1.1.2-beta")
     ksp("io.github.raamcosta.compose-destinations:ksp:1.1.2-beta")
-
-    // Coil
-    implementation("io.coil-kt:coil-compose:1.4.0")
 
     //Dagger - Hilt
     implementation("com.google.dagger:hilt-android:2.44")
